@@ -54,7 +54,7 @@ header.page-header h1,
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #ffffff;
+    color: white;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -73,7 +73,7 @@ article.post {
 
 .post h2 a,
 .post h2 a:visited {
-    color: #828282;
+    color: rgb(194, 188, 188); 
     text-decoration: none;
 }
 
