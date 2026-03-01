@@ -34,6 +34,17 @@ header.page-header h1,
 .post-form textarea,
 .post-form input {
     width: 100%;
+    background-color: rgb(33, 41, 48);
+    color: white;
+
+}
+
+.post-form label {
+  color: white;
+}
+
+.new-post-header {
+  color: white;
 }
 
 .top-menu,
