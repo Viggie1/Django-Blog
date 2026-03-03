@@ -1,12 +1,17 @@
+body {
+  background-color: rgb(27, 31, 35);
+}
+
 h1 a, h2 a {
-  color: #C25100; 
+  color: #828282; 
 }
 
 header.page-header {
-    background-color: red;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
+    border-bottom:  2px solid gray;
+    border-color: rgb(50, 50, 50);
 }
 
 header.page-header h1,
@@ -29,24 +34,47 @@ header.page-header h1,
 .post-form textarea,
 .post-form input {
     width: 100%;
+    background-color: rgb(33, 41, 48);
+    color: white;
+
+}
+
+.post-form label {
+  color: white;
+}
+
+.new-post-header {
+  color: white;
+}
+
+.edit-header {
+  color: white;
 }
 
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #ffffff;
+    color: white;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
 
-.post {
+article.post {
+    border-bottom: 2px solid rgb(50, 50, 50);
     margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+
+.post h2, 
+.post p {
+  color: #828282;
 }
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: rgb(194, 188, 188); 
+    text-decoration: none;
 }
 
 .post > .date,
